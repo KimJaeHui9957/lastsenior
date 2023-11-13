@@ -1,0 +1,975 @@
+﻿Log file open, 04/16/23 13:49:34
+LogInit: Display: Running engine for game: BlackJack
+LogInit: Display: Project file not found: ../../../BlackJack/BlackJack.uproject
+LogInit: Display: 	Attempting to find via project info helper.
+LogUProjectInfo: Found projects:
+LogPakFile: Display: Found Pak file ../../../BlackJack/Content/Paks/BlackJack-WindowsNoEditor.pak attempting to mount.
+LogPakFile: Display: Mounting pak file ../../../BlackJack/Content/Paks/BlackJack-WindowsNoEditor.pak.
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 71 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.072709
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin MovieRenderPipeline
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.25-CL-14469661
+LogInit: Engine Version: 4.25.4-14469661+++UE4+Release-4.25
+LogInit: Compatible Engine Version: 4.25.0-13144385+++UE4+Release-4.25
+LogInit: Net CL: 13144385
+LogInit: OS: Windows 10 (Release 2009) (), CPU: 13th Gen Intel(R) Core(TM) i7-13700KF, GPU: NVIDIA GeForce RTX 4070 Ti
+LogInit: Compiled (64-bit): Oct 11 2020 08:22:12
+LogInit: Compiled with Visual C++: 19.16.27032.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.25
+LogInit: Command Line: 
+LogInit: Base Directory: E:/WindowsNoEditor/Engine/Binaries/Win64/
+LogInit: Allocator: binned2
+LogInit: Installed Engine Build: 0
+LogDevObjectVersion: Number of dev versions registered: 26
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 38
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 43
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 7
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 31
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 37
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogInit: Presizing for max 2097152 objects, including 1 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [../../../BlackJack/Saved/Config/WindowsNoEditor/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogStreaming: Display: Async Loading initialized: Event Driven Loader: true, Async Loading Thread: false, Async Post Load: true
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
+[2023.04.16-04.49.34:162][  0]LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+[2023.04.16-04.49.34:162][  0]LogConfig: Setting CVar [[r.setres:1280x720]]
+[2023.04.16-04.49.34:162][  0]LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
+[2023.04.16-04.49.34:162][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [../../../BlackJack/Saved/Config/WindowsNoEditor/Engine.ini]
+[2023.04.16-04.49.34:162][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2023.04.16-04.49.34:162][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2023.04.16-04.49.34:162][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2023.04.16-04.49.34:162][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2023.04.16-04.49.34:162][  0]LogConfig: Setting CVar [[r.Mobile.UseLegacyShadingModel:0]]
+[2023.04.16-04.49.34:162][  0]LogConfig: Setting CVar [[r.Mobile.AllowDitheredLODTransition:0]]
+[2023.04.16-04.49.34:162][  0]LogConfig: Setting CVar [[r.Mobile.AllowSoftwareOcclusion:0]]
+[2023.04.16-04.49.34:162][  0]LogConfig: Setting CVar [[r.Mobile.VirtualTextures:0]]
+[2023.04.16-04.49.34:162][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2023.04.16-04.49.34:162][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2023.04.16-04.49.34:162][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2023.04.16-04.49.34:162][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2023.04.16-04.49.34:162][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2023.04.16-04.49.34:162][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2023.04.16-04.49.34:162][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2023.04.16-04.49.34:162][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2023.04.16-04.49.34:162][  0]LogConfig: Setting CVar [[r.VirtualTextures:0]]
+[2023.04.16-04.49.34:162][  0]LogConfig: Setting CVar [[r.VirtualTexturedLightmaps:0]]
+[2023.04.16-04.49.34:162][  0]LogConfig: Setting CVar [[r.VT.TileSize:128]]
+[2023.04.16-04.49.34:162][  0]LogConfig: Setting CVar [[r.VT.TileBorderSize:4]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.vt.FeedbackFactor:16]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.VT.EnableCompressZlib:1]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.VT.EnableCompressCrunch:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.AnisotropicBRDF:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Bias:1.000000]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.UsePreExposure:1]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.EyeAdaptation.EditorOnly:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.SSGI.Enable:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.DefaultFeature.LightUnits:1]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.DefaultBackBufferPixelFormat:4]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.VertexDeformationOutputsVelocity:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeX:1024]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[fx.GPUSimulationTextureSizeY:1024]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.Mobile.UseHWsRGBEncoding:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[vr.RoundRobinOcclusion:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[vr.ODSCapture:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.MeshStreaming:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.RayTracing:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.RayTracing.UseTextureLod:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphere:1]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.SupportSkyAtmosphereAffectsHeightFog:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.SkinCache.DefaultBehavior:1]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableSpotlights:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.GPUSkin.Support16BitBoneIndex:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.SupportMaterialLayers:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[r.LightPropagationVolume:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [../../../BlackJack/Saved/Config/WindowsNoEditor/Engine.ini]
+[2023.04.16-04.49.34:163][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [../../../BlackJack/Saved/Config/WindowsNoEditor/Engine.ini]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [../../../BlackJack/Saved/Config/WindowsNoEditor/Engine.ini]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2023.04.16-04.49.34:163][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [../../../BlackJack/Saved/Config/WindowsNoEditor/Engine.ini]
+[2023.04.16-04.49.34:164][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [../../../BlackJack/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2023.04.16-04.49.34:164][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [../../../BlackJack/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [../../../BlackJack/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [../../../BlackJack/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [../../../BlackJack/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [../../../BlackJack/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [../../../BlackJack/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [../../../BlackJack/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2023.04.16-04.49.34:165][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2023.04.16-04.49.34:165][  0]LogInit: Applying CVar settings loaded from the selected device profile: [WindowsNoEditor]
+[2023.04.16-04.49.34:165][  0]LogHAL: Display: Platform has ~ 32 GB [34187509760 / 34359738368 / 32], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2023.04.16-04.49.34:165][  0]LogInit: Going up to parent DeviceProfile [Windows]
+[2023.04.16-04.49.34:165][  0]LogInit: Going up to parent DeviceProfile []
+[2023.04.16-04.49.34:165][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [../../../BlackJack/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [../../../BlackJack/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [../../../BlackJack/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [../../../BlackJack/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2023.04.16-04.49.34:165][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [../../../BlackJack/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [../../../BlackJack/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[fx.Niagara.QualityLevel:3]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [../../../BlackJack/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [../../../BlackJack/Saved/Config/WindowsNoEditor/Scalability.ini]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[r.HairStrands.DeepShadow.SuperSampling:0]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[r.HairStrands.VisibilityPPLL:0]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[r.HairStrands.RasterizationScale:0.5]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[r.HairStrands.VelocityRasterizationScale:1]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2023.04.16-04.49.34:166][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [../../../BlackJack/Saved/Config/WindowsNoEditor/Engine.ini]
+[2023.04.16-04.49.34:166][  0]LogInit: Computer: DESKTOP-DHO56A3
+[2023.04.16-04.49.34:166][  0]LogInit: User: Choi
+[2023.04.16-04.49.34:166][  0]LogInit: CPU Page size=4096, Cores=16
+[2023.04.16-04.49.34:166][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2023.04.16-04.49.34:166][  0]LogMemory: Memory total: Physical=31.8GB (32GB approx)
+[2023.04.16-04.49.34:166][  0]LogMemory: Platform Memory Stats for WindowsNoEditor
+[2023.04.16-04.49.34:166][  0]LogMemory: Process Physical Memory: 72.24 MB used, 72.25 MB peak
+[2023.04.16-04.49.34:166][  0]LogMemory: Process Virtual Memory: 76.90 MB used, 76.90 MB peak
+[2023.04.16-04.49.34:166][  0]LogMemory: Physical Memory: 10941.15 MB used,  21662.60 MB free, 32603.75 MB total
+[2023.04.16-04.49.34:166][  0]LogMemory: Virtual Memory: 4963.77 MB used,  134212768.00 MB free, 134217728.00 MB total
+[2023.04.16-04.49.34:170][  0]LogWindows: WindowsPlatformFeatures enabled
+[2023.04.16-04.49.34:195][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2023.04.16-04.49.34:195][  0]LogInit: Using OS detected language (ko-KR).
+[2023.04.16-04.49.34:195][  0]LogInit: Using OS detected locale (ko-KR).
+[2023.04.16-04.49.34:195][  0]LogTextLocalizationManager: No localization for 'ko-KR' exists, so 'en' will be used for the language.
+[2023.04.16-04.49.34:195][  0]LogTextLocalizationManager: No localization for 'ko-KR' exists, so 'en' will be used for the locale.
+[2023.04.16-04.49.34:215][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2023.04.16-04.49.34:215][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2023.04.16-04.49.34:222][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.04.16-04.49.34:222][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2023.04.16-04.49.34:222][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2023.04.16-04.49.34:222][  0]LogD3D11RHI: D3D11 adapters:
+[2023.04.16-04.49.34:322][  0]LogD3D11RHI:    0. 'NVIDIA GeForce RTX 4070 Ti' (Feature Level 11_0)
+[2023.04.16-04.49.34:322][  0]LogD3D11RHI:       12010/0/16301 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2023.04.16-04.49.34:325][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2023.04.16-04.49.34:325][  0]LogD3D11RHI:       0/0/16301 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2023.04.16-04.49.34:325][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2023.04.16-04.49.34:328][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2023.04.16-04.49.34:328][  0]LogD3D11RHI:     GPU DeviceId: 0x2782 (for the marketing name, search the web for "GPU Device Id")
+[2023.04.16-04.49.34:328][  0]LogWindows: EnumDisplayDevices:
+[2023.04.16-04.49.34:329][  0]LogWindows:    0. 'NVIDIA GeForce RTX 4070 Ti' (P:1 D:1)
+[2023.04.16-04.49.34:329][  0]LogWindows:    1. 'NVIDIA GeForce RTX 4070 Ti' (P:0 D:0)
+[2023.04.16-04.49.34:329][  0]LogWindows:    2. 'NVIDIA GeForce RTX 4070 Ti' (P:0 D:0)
+[2023.04.16-04.49.34:329][  0]LogWindows:    3. 'NVIDIA GeForce RTX 4070 Ti' (P:0 D:0)
+[2023.04.16-04.49.34:329][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2023.04.16-04.49.34:329][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce RTX 4070 Ti
+[2023.04.16-04.49.34:329][  0]LogD3D11RHI:   Driver Version: 531.18 (internal:31.0.15.3118, unified:531.18)
+[2023.04.16-04.49.34:329][  0]LogD3D11RHI:      Driver Date: 2-24-2023
+[2023.04.16-04.49.34:329][  0]LogRHI: Texture pool is 8407 MB (70% of 12010 MB)
+[2023.04.16-04.49.34:382][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2023.04.16-04.49.34:383][  0]LogD3D11RHI: Async texture creation enabled
+[2023.04.16-04.49.34:383][  0]LogD3D11RHI: Array index from any shader is supported
+[2023.04.16-04.49.34:403][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2023.04.16-04.49.34:403][  0]LogShaderLibrary: Display: Using ../../../BlackJack/Content/ShaderArchive-Global-PCD3D_SM5.ushaderbytecode for material shader code. Total 2058 unique shaders.
+[2023.04.16-04.49.34:403][  0]LogShaderLibrary: Display: Cooked Context: Using Shared Shader Library Global
+[2023.04.16-04.49.34:404][  0]LogTemp: Warning: Clearing the OS Cache
+[2023.04.16-04.49.34:405][  0]LogPakFile: New pak file ../../../BlackJack/Content/Paks/BlackJack-WindowsNoEditor.pak added to pak precacher.
+[2023.04.16-04.49.34:416][  0]LogSlate: Using FreeType 2.10.0
+[2023.04.16-04.49.34:417][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2023.04.16-04.49.34:440][  0]LogShaderLibrary: Display: Using ../../../BlackJack/Content/ShaderArchive-BlackJack-PCD3D_SM5.ushaderbytecode for material shader code. Total 1670 unique shaders.
+[2023.04.16-04.49.34:440][  0]LogShaderLibrary: Display: Cooked Context: Using Shared Shader Library BlackJack
+[2023.04.16-04.49.34:440][  0]LogRHI: Display: Opened pipeline cache after state change and enqueued 0 of 0 tasks for precompile.
+[2023.04.16-04.49.34:440][  0]LogRHI: Display: Failed to open default shader pipeline cache for BlackJack using shader platform 0.
+[2023.04.16-04.49.34:440][  0]LogInit: Using OS detected language (ko-KR).
+[2023.04.16-04.49.34:440][  0]LogInit: Using OS detected locale (ko-KR).
+[2023.04.16-04.49.34:440][  0]LogTextLocalizationManager: No localization for 'ko-KR' exists, so 'en' will be used for the language.
+[2023.04.16-04.49.34:440][  0]LogTextLocalizationManager: No localization for 'ko-KR' exists, so 'en' will be used for the locale.
+[2023.04.16-04.49.34:441][  0]LogTextLocalizationManager: Compacting localization data took   0.38ms
+[2023.04.16-04.49.34:444][  0]LogAssetRegistry: FAssetRegistry took 0.0032 seconds to start up
+[2023.04.16-04.49.34:476][  0]LogStreaming: Display: Flushing async loaders.
+[2023.04.16-04.49.34:476][  0]LogPackageLocalizationCache: Processed 18 localized package path(s) for 1 prioritized culture(s) in 0.000165 seconds
+[2023.04.16-04.49.34:478][  0]LogInit: Selected Device Profile: [WindowsNoEditor]
+[2023.04.16-04.49.34:484][  0]LogNetVersion: BlackJack 1.0.0, NetCL: 13144385, EngineNetVer: 14, GameNetVer: 0 (Checksum: 1130233218)
+[2023.04.16-04.49.34:498][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.04.16-04.49.34:498][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.04.16-04.49.34:508][  0]LogAISub: UAISubsystem::UAISubsystem AISubsystem (000001990BE53540), frame # 0
+[2023.04.16-04.49.34:508][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019907BD40C0), frame # 0
+[2023.04.16-04.49.34:509][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001990BAE6600), frame # 0
+[2023.04.16-04.49.34:513][  0]LogMoviePlayer: Initializing movie player
+[2023.04.16-04.49.34:515][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2023.04.16-04.49.34:515][  0]LogOcInput: OculusInput pre-init called
+[2023.04.16-04.49.34:516][  0]LogUObjectArray: 14209 objects as part of root set at end of initial load.
+[2023.04.16-04.49.34:516][  0]LogUObjectArray: 2 objects are not in the root set, but can never be destroyed because they are in the DisregardForGC set.
+[2023.04.16-04.49.34:516][  0]LogUObjectAllocator: 2870488 out of 0 bytes used by permanent object pool.
+[2023.04.16-04.49.34:516][  0]LogUObjectArray: CloseDisregardForGC: 14209/14209 objects in disregard for GC pool
+[2023.04.16-04.49.34:524][  0]LogEngine: Initializing Engine...
+[2023.04.16-04.49.34:525][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2023.04.16-04.49.34:526][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2023.04.16-04.49.34:558][  0]LogPakFile: Precache HighWater 16MB
+
+[2023.04.16-04.49.34:558][  0]LogPakFile: Precache HighWater 32MB
+
+[2023.04.16-04.49.34:558][  0]LogInit: Initializing FReadOnlyCVARCache
+[2023.04.16-04.49.34:558][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.04.16-04.49.34:558][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.04.16-04.49.34:558][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.04.16-04.49.34:558][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.04.16-04.49.34:558][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2023.04.16-04.49.34:558][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2023.04.16-04.49.34:558][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2023.04.16-04.49.34:558][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.04.16-04.49.34:558][  0]LogAudio: Display: Using built-in audio occlusion.
+[2023.04.16-04.49.34:558][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2023.04.16-04.49.34:563][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2023.04.16-04.49.34:567][  0]LogAudioMixer: Display: 0: FrontLeft
+[2023.04.16-04.49.34:567][  0]LogAudioMixer: Display: 1: FrontRight
+[2023.04.16-04.49.34:585][  0]LogAudioMixer: Display: Using Audio Device Realtek HD Audio 2nd output(Realtek(R) Audio)
+[2023.04.16-04.49.34:586][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.04.16-04.49.34:586][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.04.16-04.49.34:586][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.04.16-04.49.34:587][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2023.04.16-04.49.34:588][  0]LogInit: FAudioDevice initialized.
+[2023.04.16-04.49.34:589][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2023.04.16-04.49.34:589][  0]LogInit: Texture streaming: Enabled
+[2023.04.16-04.49.34:593][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.16-04.49.34:593][  0]LogInit: Display: Game Engine Initialized.
+[2023.04.16-04.49.34:593][  0]LogInit: Display: Starting Game.
+[2023.04.16-04.49.34:593][  0]LogNet: Browse: /Game/Maps/Blackjack?Name=Player
+[2023.04.16-04.49.34:593][  0]LogLoad: LoadMap: /Game/Maps/Blackjack?Name=Player
+[2023.04.16-04.49.34:593][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2023.04.16-04.49.34:594][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.04.16-04.49.34:594][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.16-04.49.34:597][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2023.04.16-04.49.34:627][  0]LogAIModule: Creating AISystem for world Blackjack
+[2023.04.16-04.49.34:627][  0]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001990987BA00), frame # 0
+[2023.04.16-04.49.34:627][  0]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (00000199639CF880), frame # 0
+[2023.04.16-04.49.34:627][  0]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.04.16-04.49.34:629][  0]LogWorld: Bringing World /Game/Maps/Blackjack.Blackjack up for play (max tick rate 0) at 2023.04.16-13.49.34
+[2023.04.16-04.49.34:629][  0]LogWorld: Bringing up level for play took: 0.002109
+[2023.04.16-04.49.34:630][  0]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.04.16-04.49.34:758][  0]LogUMG: Display: Widget Class WB_CameraChange_C - Loaded Fast Template.
+[2023.04.16-04.49.34:758][  0]LogUMG: Display: Widget Class WB_CameraBack_C - Loaded Fast Template.
+[2023.04.16-04.49.34:759][  0]LogLoad: Took 0.165392 seconds to LoadMap(/Game/Maps/Blackjack)
+[2023.04.16-04.49.34:759][  0]LogSlate: Took 0.000105 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoBold.ufont' (160K)
+[2023.04.16-04.49.34:759][  0]LogSlate: Took 0.000077 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/RobotoRegular.ufont' (155K)
+[2023.04.16-04.49.34:760][  0]LogSlate: Took 0.001180 seconds to synchronously load lazily loaded font '../../../Engine/Content/EngineFonts/Faces/DroidSansFallback.ufont' (3848K)
+[2023.04.16-04.49.34:771][  0]LogRenderer: Reallocating scene render targets to support 1920x1080 Format 10 NumSamples 1 (Frame:1).
+[2023.04.16-04.49.34:771][  0]LogRHI: Display: ShaderPipelineCache: Paused Batching. 1
+[2023.04.16-04.49.34:771][  0]LogRHI: Display: ShaderPipelineCache: Resumed Batching. 0
+[2023.04.16-04.49.34:771][  0]LogRHI: Display: ShaderPipelineCache: Batching Resumed.
+[2023.04.16-04.49.34:771][  0]LogLoad: (Engine Initialization) Total time: 0.78 seconds
+[2023.04.16-04.49.34:787][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2023.04.16-04.49.35:024][ 15]LogPakFile: Precache HighWater 48MB
+
+[2023.04.16-04.49.35:784][652]LogUMG: Display: Widget Class WB_Win_C - Loaded Fast Template.
+[2023.04.16-04.49.35:785][652]LogUMG: Display: Widget Class WB_Draw_C - Loaded Fast Template.
+[2023.04.16-04.49.35:785][652]LogUMG: Display: Widget Class WB_Lose_C - Loaded Fast Template.
+[2023.04.16-04.50.01:352][647]LogNet: Browse: /Game/Maps/Blackjack
+[2023.04.16-04.50.01:352][647]LogLoad: LoadMap: /Game/Maps/Blackjack
+[2023.04.16-04.50.01:352][647]LogWorld: BeginTearingDown for /Game/Maps/Blackjack
+[2023.04.16-04.50.01:353][647]LogWorld: UWorld::CleanupWorld for Blackjack, bSessionEnded=true, bCleanupResources=true
+[2023.04.16-04.50.01:353][647]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.16-04.50.01:387][647]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001990987BA00), frame # 16647
+[2023.04.16-04.50.01:387][647]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (00000199639CF880), frame # 16647
+[2023.04.16-04.50.01:387][647]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2023.04.16-04.50.01:388][647]LogStreaming: Display: Flushing async loaders.
+[2023.04.16-04.50.01:413][647]LogAIModule: Creating AISystem for world Blackjack
+[2023.04.16-04.50.01:413][647]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001997C163800), frame # 16647
+[2023.04.16-04.50.01:413][647]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019908D0FB00), frame # 16647
+[2023.04.16-04.50.01:413][647]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.04.16-04.50.01:414][647]LogWorld: Bringing World /Game/Maps/Blackjack.Blackjack up for play (max tick rate 0) at 2023.04.16-13.50.01
+[2023.04.16-04.50.01:414][647]LogWorld: Bringing up level for play took: 0.000586
+[2023.04.16-04.50.01:414][647]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.04.16-04.50.01:543][647]LogUMG: Display: Widget Class WB_CameraChange_C - Loaded Fast Template.
+[2023.04.16-04.50.01:543][647]LogUMG: Display: Widget Class WB_CameraBack_C - Loaded Fast Template.
+[2023.04.16-04.50.01:543][647]LogLoad: Took 0.191029 seconds to LoadMap(/Game/Maps/Blackjack)
+[2023.04.16-04.50.02:351][344]LogUMG: Display: Widget Class WB_Win_C - Loaded Fast Template.
+[2023.04.16-04.50.02:351][344]LogUMG: Display: Widget Class WB_Draw_C - Loaded Fast Template.
+[2023.04.16-04.50.02:351][344]LogUMG: Display: Widget Class WB_Lose_C - Loaded Fast Template.
+[2023.04.16-04.50.21:434][268]LogNet: Browse: /Game/Maps/Blackjack
+[2023.04.16-04.50.21:434][268]LogLoad: LoadMap: /Game/Maps/Blackjack
+[2023.04.16-04.50.21:434][268]LogWorld: BeginTearingDown for /Game/Maps/Blackjack
+[2023.04.16-04.50.21:434][268]LogWorld: UWorld::CleanupWorld for Blackjack, bSessionEnded=true, bCleanupResources=true
+[2023.04.16-04.50.21:434][268]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.16-04.50.21:484][268]LogAudio: Display: Waited 49.560699 ms for audio thread.
+[2023.04.16-04.50.21:486][268]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019908D0FB00), frame # 29268
+[2023.04.16-04.50.21:486][268]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001997C163800), frame # 29268
+[2023.04.16-04.50.21:486][268]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2023.04.16-04.50.21:487][268]LogStreaming: Display: Flushing async loaders.
+[2023.04.16-04.50.21:512][268]LogAIModule: Creating AISystem for world Blackjack
+[2023.04.16-04.50.21:512][268]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019913F90C00), frame # 29268
+[2023.04.16-04.50.21:512][268]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019908D0E700), frame # 29268
+[2023.04.16-04.50.21:512][268]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.04.16-04.50.21:513][268]LogWorld: Bringing World /Game/Maps/Blackjack.Blackjack up for play (max tick rate 0) at 2023.04.16-13.50.21
+[2023.04.16-04.50.21:513][268]LogWorld: Bringing up level for play took: 0.000666
+[2023.04.16-04.50.21:514][268]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.04.16-04.50.21:641][268]LogUMG: Display: Widget Class WB_CameraChange_C - Loaded Fast Template.
+[2023.04.16-04.50.21:641][268]LogUMG: Display: Widget Class WB_CameraBack_C - Loaded Fast Template.
+[2023.04.16-04.50.21:641][268]LogLoad: Took 0.207626 seconds to LoadMap(/Game/Maps/Blackjack)
+[2023.04.16-04.50.22:433][956]LogUMG: Display: Widget Class WB_Win_C - Loaded Fast Template.
+[2023.04.16-04.50.22:433][956]LogUMG: Display: Widget Class WB_Draw_C - Loaded Fast Template.
+[2023.04.16-04.50.22:433][956]LogUMG: Display: Widget Class WB_Lose_C - Loaded Fast Template.
+[2023.04.16-04.50.37:984][773]LogNet: Browse: /Game/Maps/Blackjack
+[2023.04.16-04.50.37:984][773]LogLoad: LoadMap: /Game/Maps/Blackjack
+[2023.04.16-04.50.37:984][773]LogWorld: BeginTearingDown for /Game/Maps/Blackjack
+[2023.04.16-04.50.37:984][773]LogWorld: UWorld::CleanupWorld for Blackjack, bSessionEnded=true, bCleanupResources=true
+[2023.04.16-04.50.37:984][773]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.16-04.50.38:016][773]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019908D0E700), frame # 39773
+[2023.04.16-04.50.38:016][773]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019913F90C00), frame # 39773
+[2023.04.16-04.50.38:017][773]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2023.04.16-04.50.38:018][773]LogStreaming: Display: Flushing async loaders.
+[2023.04.16-04.50.38:044][773]LogAIModule: Creating AISystem for world Blackjack
+[2023.04.16-04.50.38:044][773]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001990933CC00), frame # 39773
+[2023.04.16-04.50.38:044][773]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019908D0FD80), frame # 39773
+[2023.04.16-04.50.38:044][773]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.04.16-04.50.38:045][773]LogWorld: Bringing World /Game/Maps/Blackjack.Blackjack up for play (max tick rate 0) at 2023.04.16-13.50.38
+[2023.04.16-04.50.38:046][773]LogWorld: Bringing up level for play took: 0.000824
+[2023.04.16-04.50.38:046][773]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.04.16-04.50.38:175][773]LogUMG: Display: Widget Class WB_CameraChange_C - Loaded Fast Template.
+[2023.04.16-04.50.38:175][773]LogUMG: Display: Widget Class WB_CameraBack_C - Loaded Fast Template.
+[2023.04.16-04.50.38:175][773]LogLoad: Took 0.191271 seconds to LoadMap(/Game/Maps/Blackjack)
+[2023.04.16-04.50.38:983][466]LogUMG: Display: Widget Class WB_Win_C - Loaded Fast Template.
+[2023.04.16-04.50.38:983][466]LogUMG: Display: Widget Class WB_Draw_C - Loaded Fast Template.
+[2023.04.16-04.50.38:983][466]LogUMG: Display: Widget Class WB_Lose_C - Loaded Fast Template.
+[2023.04.16-04.50.57:541][750]LogNet: Browse: /Game/Maps/Blackjack
+[2023.04.16-04.50.57:541][750]LogLoad: LoadMap: /Game/Maps/Blackjack
+[2023.04.16-04.50.57:541][750]LogWorld: BeginTearingDown for /Game/Maps/Blackjack
+[2023.04.16-04.50.57:542][750]LogWorld: UWorld::CleanupWorld for Blackjack, bSessionEnded=true, bCleanupResources=true
+[2023.04.16-04.50.57:542][750]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.16-04.50.57:576][750]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019908D0FD80), frame # 51750
+[2023.04.16-04.50.57:576][750]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001990933CC00), frame # 51750
+[2023.04.16-04.50.57:576][750]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2023.04.16-04.50.57:578][750]LogStreaming: Display: Flushing async loaders.
+[2023.04.16-04.50.57:603][750]LogAIModule: Creating AISystem for world Blackjack
+[2023.04.16-04.50.57:603][750]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001990C78EE00), frame # 51750
+[2023.04.16-04.50.57:603][750]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019908D08940), frame # 51750
+[2023.04.16-04.50.57:603][750]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.04.16-04.50.57:603][750]LogWorld: Bringing World /Game/Maps/Blackjack.Blackjack up for play (max tick rate 0) at 2023.04.16-13.50.57
+[2023.04.16-04.50.57:604][750]LogWorld: Bringing up level for play took: 0.000540
+[2023.04.16-04.50.57:604][750]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.04.16-04.50.57:733][750]LogUMG: Display: Widget Class WB_CameraChange_C - Loaded Fast Template.
+[2023.04.16-04.50.57:734][750]LogUMG: Display: Widget Class WB_CameraBack_C - Loaded Fast Template.
+[2023.04.16-04.50.57:734][750]LogLoad: Took 0.192599 seconds to LoadMap(/Game/Maps/Blackjack)
+[2023.04.16-04.50.58:540][408]LogUMG: Display: Widget Class WB_Win_C - Loaded Fast Template.
+[2023.04.16-04.50.58:540][408]LogUMG: Display: Widget Class WB_Draw_C - Loaded Fast Template.
+[2023.04.16-04.50.58:540][408]LogUMG: Display: Widget Class WB_Lose_C - Loaded Fast Template.
+[2023.04.16-04.51.12:290][349]LogNet: Browse: /Game/Maps/Blackjack
+[2023.04.16-04.51.12:290][349]LogLoad: LoadMap: /Game/Maps/Blackjack
+[2023.04.16-04.51.12:290][349]LogWorld: BeginTearingDown for /Game/Maps/Blackjack
+[2023.04.16-04.51.12:290][349]LogWorld: UWorld::CleanupWorld for Blackjack, bSessionEnded=true, bCleanupResources=true
+[2023.04.16-04.51.12:290][349]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.16-04.51.12:316][349]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019908D08940), frame # 61349
+[2023.04.16-04.51.12:316][349]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001990C78EE00), frame # 61349
+[2023.04.16-04.51.12:317][349]LogUObjectHash: Compacting FUObjectHashTables data took   0.30ms
+[2023.04.16-04.51.12:318][349]LogStreaming: Display: Flushing async loaders.
+[2023.04.16-04.51.12:343][349]LogAIModule: Creating AISystem for world Blackjack
+[2023.04.16-04.51.12:343][349]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (000001990C78AE00), frame # 61349
+[2023.04.16-04.51.12:343][349]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019908D0DF80), frame # 61349
+[2023.04.16-04.51.12:343][349]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.04.16-04.51.12:344][349]LogWorld: Bringing World /Game/Maps/Blackjack.Blackjack up for play (max tick rate 0) at 2023.04.16-13.51.12
+[2023.04.16-04.51.12:344][349]LogWorld: Bringing up level for play took: 0.000536
+[2023.04.16-04.51.12:344][349]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.04.16-04.51.12:472][349]LogUMG: Display: Widget Class WB_CameraChange_C - Loaded Fast Template.
+[2023.04.16-04.51.12:472][349]LogUMG: Display: Widget Class WB_CameraBack_C - Loaded Fast Template.
+[2023.04.16-04.51.12:473][349]LogLoad: Took 0.183139 seconds to LoadMap(/Game/Maps/Blackjack)
+[2023.04.16-04.51.13:289][ 54]LogUMG: Display: Widget Class WB_Win_C - Loaded Fast Template.
+[2023.04.16-04.51.13:289][ 54]LogUMG: Display: Widget Class WB_Draw_C - Loaded Fast Template.
+[2023.04.16-04.51.13:289][ 54]LogUMG: Display: Widget Class WB_Lose_C - Loaded Fast Template.
+[2023.04.16-04.51.29:443][429]LogNet: Browse: /Game/Maps/Blackjack
+[2023.04.16-04.51.29:443][429]LogLoad: LoadMap: /Game/Maps/Blackjack
+[2023.04.16-04.51.29:443][429]LogWorld: BeginTearingDown for /Game/Maps/Blackjack
+[2023.04.16-04.51.29:443][429]LogWorld: UWorld::CleanupWorld for Blackjack, bSessionEnded=true, bCleanupResources=true
+[2023.04.16-04.51.29:443][429]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.16-04.51.29:465][429]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019908D0DF80), frame # 72429
+[2023.04.16-04.51.29:465][429]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001990C78AE00), frame # 72429
+[2023.04.16-04.51.29:466][429]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2023.04.16-04.51.29:467][429]LogStreaming: Display: Flushing async loaders.
+[2023.04.16-04.51.29:492][429]LogAIModule: Creating AISystem for world Blackjack
+[2023.04.16-04.51.29:492][429]LogAISub: UAISubsystem::UAISubsystem EnvQueryManager (0000019909870800), frame # 72429
+[2023.04.16-04.51.29:493][429]LogAISub: UAISubsystem::UAISubsystem AIPerceptionSystem (0000019908D090C0), frame # 72429
+[2023.04.16-04.51.29:493][429]LogLoad: Game class is 'BP_GameModeBase_C'
+[2023.04.16-04.51.29:493][429]LogWorld: Bringing World /Game/Maps/Blackjack.Blackjack up for play (max tick rate 0) at 2023.04.16-13.51.29
+[2023.04.16-04.51.29:494][429]LogWorld: Bringing up level for play took: 0.000631
+[2023.04.16-04.51.29:494][429]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.04.16-04.51.29:622][429]LogUMG: Display: Widget Class WB_CameraChange_C - Loaded Fast Template.
+[2023.04.16-04.51.29:622][429]LogUMG: Display: Widget Class WB_CameraBack_C - Loaded Fast Template.
+[2023.04.16-04.51.29:623][429]LogLoad: Took 0.179892 seconds to LoadMap(/Game/Maps/Blackjack)
+[2023.04.16-04.51.30:441][136]LogUMG: Display: Widget Class WB_Win_C - Loaded Fast Template.
+[2023.04.16-04.51.30:441][136]LogUMG: Display: Widget Class WB_Draw_C - Loaded Fast Template.
+[2023.04.16-04.51.30:441][136]LogUMG: Display: Widget Class WB_Lose_C - Loaded Fast Template.
+[2023.04.16-04.51.32:464][955]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2023.04.16-04.51.34:297][546]Closing by request
+[2023.04.16-04.51.34:297][546]LogWindows: FPlatformMisc::RequestExit(0)
+[2023.04.16-04.51.34:297][546]LogCore: Engine exit requested (reason: Win RequestExit)
+[2023.04.16-04.51.34:298][547]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2023.04.16-04.51.34:298][547]LogAudio: Display: Shutting down audio device while 2 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2023.04.16-04.51.34:338][547]LogInit: Display: PreExit Game.
+[2023.04.16-04.51.34:338][547]LogWorld: BeginTearingDown for /Game/Maps/Blackjack
+[2023.04.16-04.51.34:338][547]LogWorld: UWorld::CleanupWorld for Blackjack, bSessionEnded=true, bCleanupResources=true
+[2023.04.16-04.51.34:338][547]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.04.16-04.51.34:584][547]LogSlate: Request Window 'BlackJack (64-bit Development PCD3D_SM5) ' being destroyed
+[2023.04.16-04.51.34:590][547]LogSlate: Window 'BlackJack (64-bit Development PCD3D_SM5) ' being destroyed
+[2023.04.16-04.51.34:592][547]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (Microsoft 입력기).
+[2023.04.16-04.51.34:604][547]LogExit: Preparing to exit.
+[2023.04.16-04.51.34:604][547]LogMoviePlayer: Shutting down movie player
+[2023.04.16-04.51.34:607][547]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.04.16-04.51.34:608][547]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2023.04.16-04.51.34:610][547]LogExit: Game engine shut down
+[2023.04.16-04.51.34:613][547]LogAISub: UAISubsystem::~UAISubsystem AISubsystem (000001990BE53540), frame # 76547
+[2023.04.16-04.51.34:613][547]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019907BD40C0), frame # 76547
+[2023.04.16-04.51.34:614][547]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (000001990BAE6600), frame # 76547
+[2023.04.16-04.51.34:621][547]LogAISub: UAISubsystem::~UAISubsystem AIPerceptionSystem (0000019908D090C0), frame # 76547
+[2023.04.16-04.51.34:621][547]LogAISub: UAISubsystem::~UAISubsystem EnvQueryManager (0000019909870800), frame # 76547
+[2023.04.16-04.51.34:629][547]LogExit: Object subsystem successfully closed.
+[2023.04.16-04.51.34:632][547]LogModuleManager: Shutting down and abandoning module AutomationController (316)
+[2023.04.16-04.51.34:632][547]LogModuleManager: Shutting down and abandoning module AutomationWorker (314)
+[2023.04.16-04.51.34:632][547]LogModuleManager: Shutting down and abandoning module Voice (312)
+[2023.04.16-04.51.34:632][547]LogModuleManager: Shutting down and abandoning module AIModule (310)
+[2023.04.16-04.51.34:632][547]LogModuleManager: Shutting down and abandoning module GameplayDebugger (309)
+[2023.04.16-04.51.34:632][547]LogModuleManager: Shutting down and abandoning module NavigationSystem (307)
+[2023.04.16-04.51.34:632][547]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (304)
+[2023.04.16-04.51.34:632][547]LogModuleManager: Shutting down and abandoning module WebMMedia (302)
+[2023.04.16-04.51.34:632][547]LogModuleManager: Shutting down and abandoning module OculusMR (300)
+[2023.04.16-04.51.34:632][547]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (298)
+[2023.04.16-04.51.34:632][547]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (296)
+[2023.04.16-04.51.34:632][547]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (294)
+[2023.04.16-04.51.34:632][547]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (292)
+[2023.04.16-04.51.34:632][547]LogModuleManager: Shutting down and abandoning module CharacterAI (290)
+[2023.04.16-04.51.34:632][547]LogModuleManager: Shutting down and abandoning module PlanarCut (288)
+[2023.04.16-04.51.34:632][547]LogModuleManager: Shutting down and abandoning module SessionServices (286)
+[2023.04.16-04.51.34:632][547]LogModuleManager: Shutting down and abandoning module LiveCoding (284)
+[2023.04.16-04.51.34:632][547]LogModuleManager: Shutting down and abandoning module LevelSequence (282)
+[2023.04.16-04.51.34:632][547]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (280)
+[2023.04.16-04.51.34:632][547]LogModuleManager: Shutting down and abandoning module MovieScene (278)
+[2023.04.16-04.51.34:632][547]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (276)
+[2023.04.16-04.51.34:632][547]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (274)
+[2023.04.16-04.51.34:632][547]LogModuleManager: Shutting down and abandoning module AudioMixerCore (273)
+[2023.04.16-04.51.34:632][547]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (270)
+[2023.04.16-04.51.34:633][547]LogModuleManager: Shutting down and abandoning module ProfilerService (268)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module TaskGraph (266)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module Synthesis (264)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module OculusInput (262)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (260)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module GooglePAD (258)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (256)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module CableComponent (254)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module AudioCapture (252)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (251)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module AssetTags (248)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (246)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module AppleImageUtils (244)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module AndroidPermission (242)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module TemplateSequence (240)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module MediaCompositing (238)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module ImgMedia (236)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module MagicLeapLightEstimation (234)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (232)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (230)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (228)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module MagicLeapSharedWorld (226)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module ChaosNiagara (224)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (222)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (220)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module EditableMesh (218)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module MeshSolverUtilities (216)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module MeshConversion (214)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module DynamicMesh (212)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (210)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module GeometricObjects (208)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module ChaosCloth (206)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module BackChannel (204)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module AutomationUtils (202)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (200)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module GeometryCache (198)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module UObjectPlugin (196)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module SoundFields (194)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (192)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (188)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module ActorSequence (186)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module UdpMessaging (184)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module TcpMessaging (182)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module MagicLeapHandMeshing (180)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (178)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (176)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module MagicLeapPlanes (174)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module MagicLeapImageTracker (172)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (170)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module MagicLeapHandTracking (168)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (166)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module MagicLeapController (164)
+[2023.04.16-04.51.34:724][547]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module MagicLeapARPinImpl (162)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module MagicLeapAR (160)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module AugmentedReality (159)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module MagicLeapARPin (156)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (154)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module Niagara (152)
+[2023.04.16-04.51.34:724][547]LogModuleManager: Shutting down and abandoning module SignalProcessing (151)
+[2023.04.16-04.51.34:725][547]LogModuleManager: Shutting down and abandoning module NiagaraCore (148)
+[2023.04.16-04.51.34:725][547]LogModuleManager: Shutting down and abandoning module FacialAnimation (146)
+[2023.04.16-04.51.34:725][547]LogModuleManager: Shutting down and abandoning module SignificanceManager (144)
+[2023.04.16-04.51.34:725][547]LogModuleManager: Shutting down and abandoning module AnimationSharing (142)
+[2023.04.16-04.51.34:725][547]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (140)
+[2023.04.16-04.51.34:725][547]LogModuleManager: Shutting down and abandoning module Paper2D (138)
+[2023.04.16-04.51.34:725][547]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (136)
+[2023.04.16-04.51.34:725][547]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (134)
+[2023.04.16-04.51.34:725][547]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (132)
+[2023.04.16-04.51.34:725][547]LogModuleManager: Shutting down and abandoning module PacketHandler (130)
+[2023.04.16-04.51.34:725][547]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (128)
+[2023.04.16-04.51.34:725][547]LogModuleManager: Shutting down and abandoning module MediaAssets (126)
+[2023.04.16-04.51.34:725][547]LogModuleManager: Shutting down and abandoning module Overlay (124)
+[2023.04.16-04.51.34:725][547]LogModuleManager: Shutting down and abandoning module FunctionalTesting (122)
+[2023.04.16-04.51.34:725][547]LogModuleManager: Shutting down and abandoning module MessageLog (120)
+[2023.04.16-04.51.34:725][547]LogModuleManager: Shutting down and abandoning module UMG (118)
+[2023.04.16-04.51.34:725][547]LogModuleManager: Shutting down and abandoning module SlateReflector (116)
+[2023.04.16-04.51.34:725][547]LogModuleManager: Shutting down and abandoning module Slate (114)
+[2023.04.16-04.51.34:725][547]LogModuleManager: Shutting down and abandoning module SlateCore (112)
+[2023.04.16-04.51.34:725][547]LogModuleManager: Shutting down and abandoning module MRMesh (110)
+[2023.04.16-04.51.34:725][547]LogModuleManager: Shutting down and abandoning module Messaging (108)
+[2023.04.16-04.51.34:725][547]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (106)
+[2023.04.16-04.51.34:725][547]LogModuleManager: Shutting down and abandoning module XAudio2 (104)
+[2023.04.16-04.51.34:725][547]LogModuleManager: Shutting down and abandoning module Networking (102)
+[2023.04.16-04.51.34:725][547]LogModuleManager: Shutting down and abandoning module Core (100)
+[2023.04.16-04.51.34:725][547]LogModuleManager: Shutting down and abandoning module ImageWrapper (96)
+[2023.04.16-04.51.34:725][547]LogModuleManager: Shutting down and abandoning module InputCore (94)
+[2023.04.16-04.51.34:725][547]LogModuleManager: Shutting down and abandoning module Settings (92)
+[2023.04.16-04.51.34:725][547]LogModuleManager: Shutting down and abandoning module PhysXCooking (90)
+[2023.04.16-04.51.34:725][547]LogModuleManager: Shutting down and abandoning module ChaosSolvers (88)
+[2023.04.16-04.51.34:725][547]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (87)
+[2023.04.16-04.51.34:725][547]LogModuleManager: Shutting down and abandoning module Chaos (84)
+[2023.04.16-04.51.34:725][547]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (82)
+[2023.04.16-04.51.34:725][547]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (81)
+[2023.04.16-04.51.34:725][547]LogModuleManager: Shutting down and abandoning module AVEncoder (80)
+[2023.04.16-04.51.34:725][547]LogModuleManager: Shutting down and abandoning module SteamVRInputDevice (76)
+[2023.04.16-04.51.34:725][547]LogModuleManager: Shutting down and abandoning module SteamVRInput (74)
+[2023.04.16-04.51.34:725][547]LogModuleManager: Shutting down and abandoning module SteamVR (72)
+[2023.04.16-04.51.34:725][547]LogHMD: Freeing OpenVRDLLHandle.
+[2023.04.16-04.51.34:725][547]LogModuleManager: Shutting down and abandoning module OculusHMD (70)
+[2023.04.16-04.51.34:725][547]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (68)
+[2023.04.16-04.51.34:725][547]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (66)
+[2023.04.16-04.51.34:725][547]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (62)
+[2023.04.16-04.51.34:725][547]LogModuleManager: Shutting down and abandoning module HTTP (57)
+[2023.04.16-04.51.34:731][547]LogModuleManager: Shutting down and abandoning module SSL (56)
+[2023.04.16-04.51.34:731][547]LogModuleManager: Shutting down and abandoning module WmfMedia (52)
+[2023.04.16-04.51.34:731][547]LogModuleManager: Shutting down and abandoning module Media (51)
+[2023.04.16-04.51.34:732][547]LogModuleManager: Shutting down and abandoning module MagicLeap (48)
+[2023.04.16-04.51.34:732][547]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (46)
+[2023.04.16-04.51.34:732][547]LogModuleManager: Shutting down and abandoning module NiagaraShader (44)
+[2023.04.16-04.51.34:732][547]LogModuleManager: Shutting down and abandoning module VariantManagerContent (42)
+[2023.04.16-04.51.34:732][547]LogModuleManager: Shutting down and abandoning module DatasmithContent (40)
+[2023.04.16-04.51.34:732][547]LogModuleManager: Shutting down and abandoning module AISupportModule (38)
+[2023.04.16-04.51.34:732][547]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (36)
+[2023.04.16-04.51.34:732][547]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (34)
+[2023.04.16-04.51.34:732][547]LogModuleManager: Shutting down and abandoning module PlatformCrypto (32)
+[2023.04.16-04.51.34:732][547]LogModuleManager: Shutting down and abandoning module RenderCore (30)
+[2023.04.16-04.51.34:732][547]LogModuleManager: Shutting down and abandoning module Landscape (28)
+[2023.04.16-04.51.34:732][547]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (26)
+[2023.04.16-04.51.34:733][547]LogModuleManager: Shutting down and abandoning module OpenGLDrv (24)
+[2023.04.16-04.51.34:733][547]LogModuleManager: Shutting down and abandoning module D3D11RHI (22)
+[2023.04.16-04.51.34:733][547]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2023.04.16-04.51.34:733][547]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2023.04.16-04.51.34:733][547]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2023.04.16-04.51.34:733][547]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2023.04.16-04.51.34:733][547]LogModuleManager: Shutting down and abandoning module NetworkFile (12)
+[2023.04.16-04.51.34:733][547]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (10)
+[2023.04.16-04.51.34:733][547]LogModuleManager: Shutting down and abandoning module StreamingFile (8)
+[2023.04.16-04.51.34:733][547]LogModuleManager: Shutting down and abandoning module SandboxFile (6)
+[2023.04.16-04.51.34:733][547]LogModuleManager: Shutting down and abandoning module PakFile (4)
+[2023.04.16-04.51.34:734][547]LogModuleManager: Shutting down and abandoning module RSA (3)
+[2023.04.16-04.51.34:734][547]LogContentStreaming: Display: There are 1 unreleased StreamingManagers
+[2023.04.16-04.51.34:735][547]LogD3D11RHI: Shutdown
+[2023.04.16-04.51.34:735][547]LogD3D11RHI: CleanupD3DDevice
+[2023.04.16-04.51.34:741][547]LogExit: Exiting.
+[2023.04.16-04.51.34:750][547]Log file closed, 04/16/23 13:51:34
